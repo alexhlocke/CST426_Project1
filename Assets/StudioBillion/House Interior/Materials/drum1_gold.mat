@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: drum1_gold
   m_Shader: {fileID: 7, guid: 0000000000000000f000000000000000, type: 0}
-  m_Parent: {fileID: 2100000, guid: 06fb049387588b54d90789ded7a36731, type: 2}
+  m_Parent: {fileID: 2100000, guid: 0d10351ce92097a4db61d2db7afab59d, type: 2}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
