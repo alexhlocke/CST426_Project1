@@ -71,8 +71,8 @@ develop in house.
 
 * Cumulative ‘health score’ that allows players to permanently purchase cosmetics or upgrades that persist for every level
 
-Boss battles with big processed food (a whole happy meal, microwavable meals, etc)
+* Boss battles with big processed food (a whole happy meal, microwavable meals, etc)
 
-Ability to use enemy ‘unhealthy’ foods on your own team in exchange for a tank in your final healthy score
+* Ability to use enemy ‘unhealthy’ foods on your own team in exchange for a tank in your final healthy score
 
-1st person mode where the player can control one troop directly in battle
+* 1st person mode where the player can control one troop directly in battle
