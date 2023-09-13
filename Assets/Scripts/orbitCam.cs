@@ -17,6 +17,8 @@ public class orbitCam : MonoBehaviour
     public float minDist;
     [Range(0f,20f)]
     public float zoomSpeed;
+    [Range(0f,5f)]
+    public float yOffset = 3f;
 
     private float distance; 
     private Vector3 offset; //offset from target to camera
@@ -34,8 +36,7 @@ public class orbitCam : MonoBehaviour
 
     private void Update() {
         //if rmb
-        if (Input.GetMouseButton(1))
-        {
+        if (Input.GetMouseButton(1)) {
             //get mouse movement
             float mouseX = Input.GetAxis("Mouse X");
             float mouseY = Input.GetAxis("Mouse Y");
@@ -54,6 +55,20 @@ public class orbitCam : MonoBehaviour
         }
 
         updateCamPos();
+
+        //if lmb
+        if (Input.GetMouseButtonDown(0)) {
+            // Ray cast from cam
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            RaycastHit hit;
+            if (Physics.Raycast(ray, out hit)) {
+                Debug.Log("ID: " + hit.transform.name);
+
+                //move camera
+                target = hit.transform;
+            } else {
+            }
+        }
     }
 
     private void updateCamPos() {
@@ -64,5 +79,10 @@ public class orbitCam : MonoBehaviour
         offset = offset.normalized * distance;
         transform.position = target.position + offset;
         transform.LookAt(target);
+
+        //y offset
+        Vector3 camPos = transform.position;
+        camPos.y += yOffset;
+        transform.position = camPos;
     }
 }
