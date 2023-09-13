@@ -83,6 +83,6 @@ public class orbitCam : MonoBehaviour
         //y offset
         Vector3 camPos = transform.position;
         camPos.y += yOffset;
-        transform.position = camPos;
+        transform.position = camPos; 
     }
 }
