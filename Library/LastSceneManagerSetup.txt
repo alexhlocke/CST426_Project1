@@ -1,0 +1,5 @@
+sceneSetups:
+- path: Assets/CST426_Project1/Assets/Scenes/TroopTest.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0

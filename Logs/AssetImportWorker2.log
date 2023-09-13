@@ -1,0 +1,516 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.7f1 (b16b3b16c7a0) revision 11627323'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 16085 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/edgar/Documents/CSUMB/CSUMB 4th Year - 1st Semester/CST 426 - Advanced Game Development/CST426_Project1
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+55896
+Successfully changed project path to: C:/Users/edgar/Documents/CSUMB/CSUMB 4th Year - 1st Semester/CST 426 - Advanced Game Development/CST426_Project1
+C:/Users/edgar/Documents/CSUMB/CSUMB 4th Year - 1st Semester/CST 426 - Advanced Game Development/CST426_Project1
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [17568] Host "[IP] 10.11.156.205 [Port] 0 [Flags] 2 [Guid] 52730495 [EditorId] 52730495 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [17568] Host "[IP] 10.11.156.205 [Port] 0 [Flags] 2 [Guid] 52730495 [EditorId] 52730495 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 6.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.7f1 (b16b3b16c7a0)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/edgar/Documents/CSUMB/CSUMB 4th Year - 1st Semester/CST 426 - Advanced Game Development/CST426_Project1/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   NVIDIA
+    VRAM:     6009 MB
+    Driver:   31.0.15.3713
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56080
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007796 seconds.
+- Loaded All Assemblies, in  0.273 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.188 seconds
+Domain Reload Profiling: 459ms
+	BeginReloadAssembly (85ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (103ms)
+		LoadAssemblies (83ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (102ms)
+			TypeCache.Refresh (101ms)
+				TypeCache.ScanAssembly (90ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (189ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (145ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (95ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.489 seconds
+Refreshing native plugins compatible for Editor in 2.70 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.394 seconds
+Domain Reload Profiling: 881ms
+	BeginReloadAssembly (116ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (300ms)
+		LoadAssemblies (226ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (140ms)
+			TypeCache.Refresh (125ms)
+				TypeCache.ScanAssembly (112ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (394ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (290ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (45ms)
+			ProcessInitializeOnLoadAttributes (217ms)
+			ProcessInitializeOnLoadMethodAttributes (14ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 2.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3072 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (56.4 KB). Loaded Objects now: 3534.
+Memory consumption went from 114.2 MB to 114.1 MB.
+Total: 2.980600 ms (FindLiveObjects: 0.264500 ms CreateObjectMapping: 0.117900 ms MarkObjects: 2.500000 ms  DeleteObjects: 0.097200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3837.255454 seconds.
+  path: Assets/CST426_Project1/Assets/StudioBillion/House Interior/Materials
+  artifactKey: Guid(63ebfd9e546b779488733da85b32e5ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CST426_Project1/Assets/StudioBillion/House Interior/Materials using Guid(63ebfd9e546b779488733da85b32e5ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27fbefd1ebb526b310eb1fe923f9d00c') in 0.003858 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.104154 seconds.
+  path: Assets/CST426_Project1/Assets/StudioBillion/House Interior/Materials/background.mat
+  artifactKey: Guid(9d21737f0c5b352439f4b236afce77bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CST426_Project1/Assets/StudioBillion/House Interior/Materials/background.mat using Guid(9d21737f0c5b352439f4b236afce77bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b233cbaae9c65e235a1fd49c3056117b') in 0.207873 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/CST426_Project1/Assets/StudioBillion/House Interior/Materials/BLU.006.mat
+  artifactKey: Guid(91c44249ebefef24cb8f69e79ea6e4b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CST426_Project1/Assets/StudioBillion/House Interior/Materials/BLU.006.mat using Guid(91c44249ebefef24cb8f69e79ea6e4b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57a1875461a0181e8b466f94a0b7bbc4') in 0.018873 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/CST426_Project1/Assets/StudioBillion/House Interior/Materials/BLU.3.mat
+  artifactKey: Guid(e23357c383c68b64ca8e2767f5b71c7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CST426_Project1/Assets/StudioBillion/House Interior/Materials/BLU.3.mat using Guid(e23357c383c68b64ca8e2767f5b71c7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e0f3d64a10f5c4651c5270a5ae6208d') in 0.033192 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/CST426_Project1/Assets/StudioBillion/House Interior/Materials/BLU.4.mat
+  artifactKey: Guid(2fd5a7fdf5c3bdb41b80eabff66f9b61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CST426_Project1/Assets/StudioBillion/House Interior/Materials/BLU.4.mat using Guid(2fd5a7fdf5c3bdb41b80eabff66f9b61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e314e5a9bf14fca1ea4dc89245098e9') in 0.011828 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/CST426_Project1/Assets/StudioBillion/House Interior/Materials/box_gray.mat
+  artifactKey: Guid(758e7907dc7adef4a813ff5a5e65ccf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CST426_Project1/Assets/StudioBillion/House Interior/Materials/box_gray.mat using Guid(758e7907dc7adef4a813ff5a5e65ccf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ad44e657d1c3bae56f2c3e5a045569d') in 0.015006 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/CST426_Project1/Assets/StudioBillion/House Interior/Materials/box_white.mat
+  artifactKey: Guid(19231f68bbe13a74aa2a06586b957ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CST426_Project1/Assets/StudioBillion/House Interior/Materials/box_white.mat using Guid(19231f68bbe13a74aa2a06586b957ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80d66265763a0c6a374b684baacdeb6f') in 0.072018 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 6.780281 seconds.
+  path: Assets/CST426_Project1/Assets/StudioBillion/House Interior/Models
+  artifactKey: Guid(34ca4ea9789af0342834339eb7251436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CST426_Project1/Assets/StudioBillion/House Interior/Models using Guid(34ca4ea9789af0342834339eb7251436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79bd72ba56435fc4f40a8658d5d0d6f2') in 0.001074 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.097424 seconds.
+  path: Assets/CST426_Project1/Assets/StudioBillion/House Interior/Models/House.fbx
+  artifactKey: Guid(395cabac5120ee143a46a99c451f95dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CST426_Project1/Assets/StudioBillion/House Interior/Models/House.fbx using Guid(395cabac5120ee143a46a99c451f95dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c472ac496e707b1a7bd5e3455b5b52e') in 0.720549 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 646
+========================================================================
+Received Import Request.
+  Time since last request: 10.740576 seconds.
+  path: Assets/CST426_Project1/Assets/StudioBillion/House Interior/Prefabs/Cooker.prefab
+  artifactKey: Guid(9515088368412224d8d847c7166c576b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CST426_Project1/Assets/StudioBillion/House Interior/Prefabs/Cooker.prefab using Guid(9515088368412224d8d847c7166c576b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc381a52bbd91f1dc4a197983d2fced7') in 0.002813 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.001309 seconds.
+  path: Assets/CST426_Project1/Assets/StudioBillion/House Interior/Prefabs/Desk.prefab
+  artifactKey: Guid(1ba7489628675e1429fb3a6f7c8d997e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CST426_Project1/Assets/StudioBillion/House Interior/Prefabs/Desk.prefab using Guid(1ba7489628675e1429fb3a6f7c8d997e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32170075044ec3ed35cc148d980c822e') in 0.001954 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.002117 seconds.
+  path: Assets/CST426_Project1/Assets/StudioBillion/House Interior/Prefabs/Dinner Table.prefab
+  artifactKey: Guid(46cbe084a81448f4188741f4900aa05c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CST426_Project1/Assets/StudioBillion/House Interior/Prefabs/Dinner Table.prefab using Guid(46cbe084a81448f4188741f4900aa05c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15ef21c9383079bc5173052378aea37f') in 0.002208 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 1.304591 seconds.
+  path: Assets/CST426_Project1/Assets/StudioBillion/House Interior/Prefabs/Dishes.prefab
+  artifactKey: Guid(731b7442058aa0746a28b030eeebb423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CST426_Project1/Assets/StudioBillion/House Interior/Prefabs/Dishes.prefab using Guid(731b7442058aa0746a28b030eeebb423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b8ad72e31449130a0b1e06dbffcd203') in 0.002181 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.002167 seconds.
+  path: Assets/CST426_Project1/Assets/StudioBillion/House Interior/Prefabs/Drum.prefab
+  artifactKey: Guid(d64371e2200e7bf488d39216fe744c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CST426_Project1/Assets/StudioBillion/House Interior/Prefabs/Drum.prefab using Guid(d64371e2200e7bf488d39216fe744c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88cb8fa683f658d01fe2e3a54b8dbbf7') in 0.003831 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 52
+========================================================================
+Received Import Request.
+  Time since last request: 0.000008 seconds.
+  path: Assets/CST426_Project1/Assets/StudioBillion/House Interior/Prefabs/Fridge.prefab
+  artifactKey: Guid(b49adfde37aecff46adc0b6df2e2320a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CST426_Project1/Assets/StudioBillion/House Interior/Prefabs/Fridge.prefab using Guid(b49adfde37aecff46adc0b6df2e2320a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f30962ffb3a4b7ace3b42a42ebb1327') in 0.001850 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 1.670686 seconds.
+  path: Assets/CST426_Project1/Assets/StudioBillion/House Interior/Prefabs/Glass.prefab
+  artifactKey: Guid(941e8112766f3664c8897d967cbc36c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CST426_Project1/Assets/StudioBillion/House Interior/Prefabs/Glass.prefab using Guid(941e8112766f3664c8897d967cbc36c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92f06664b911396e69d70044e927c89f') in 0.002857 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.001374 seconds.
+  path: Assets/CST426_Project1/Assets/StudioBillion/House Interior/Prefabs/House 2.prefab
+  artifactKey: Guid(bf9073c2de0de724cb9e940bdba78e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CST426_Project1/Assets/StudioBillion/House Interior/Prefabs/House 2.prefab using Guid(bf9073c2de0de724cb9e940bdba78e5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33146f821c60b142c468334504bed436') in 0.007752 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 132
+========================================================================
+Received Import Request.
+  Time since last request: 0.043764 seconds.
+  path: Assets/CST426_Project1/Assets/StudioBillion/House Interior/Prefabs/Kitchen Stuff.prefab
+  artifactKey: Guid(4ae3c94c21b962747b395bbe71e495fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CST426_Project1/Assets/StudioBillion/House Interior/Prefabs/Kitchen Stuff.prefab using Guid(4ae3c94c21b962747b395bbe71e495fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67690c40982f584f90c8b3552f831a80') in 0.002086 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.002282 seconds.
+  path: Assets/CST426_Project1/Assets/StudioBillion/House Interior/Prefabs/Lamp.prefab
+  artifactKey: Guid(5eea1aef760145f4d90d60af5dfd4d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CST426_Project1/Assets/StudioBillion/House Interior/Prefabs/Lamp.prefab using Guid(5eea1aef760145f4d90d60af5dfd4d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '978263611eb099bf5b9459ed6c217f35') in 0.001736 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.002310 seconds.
+  path: Assets/CST426_Project1/Assets/StudioBillion/House Interior/Prefabs/Laptop.prefab
+  artifactKey: Guid(2e698ceb2b1264640b27ae0adf9849b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CST426_Project1/Assets/StudioBillion/House Interior/Prefabs/Laptop.prefab using Guid(2e698ceb2b1264640b27ae0adf9849b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17364a4f8f0377a90f1ff0201753c664') in 0.003374 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.281651 seconds.
+  path: Assets/CST426_Project1/Assets/StudioBillion/House Interior/Prefabs/Microwave.prefab
+  artifactKey: Guid(9700783feb620bd4baa1d11233ba6c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CST426_Project1/Assets/StudioBillion/House Interior/Prefabs/Microwave.prefab using Guid(9700783feb620bd4baa1d11233ba6c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f6a56a917943cdafb167cb6a4b1d2f8') in 0.001990 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.001907 seconds.
+  path: Assets/CST426_Project1/Assets/StudioBillion/House Interior/Prefabs/Mirror.prefab
+  artifactKey: Guid(9f8bb1e85528746479eb92b155d75888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CST426_Project1/Assets/StudioBillion/House Interior/Prefabs/Mirror.prefab using Guid(9f8bb1e85528746479eb92b155d75888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34410510ba4ec37fbc9f832054c9d6a7') in 0.002128 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.001571 seconds.
+  path: Assets/CST426_Project1/Assets/StudioBillion/House Interior/Prefabs/Painting.prefab
+  artifactKey: Guid(1b8174847f8c3b54ea3bd411eac16b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CST426_Project1/Assets/StudioBillion/House Interior/Prefabs/Painting.prefab using Guid(1b8174847f8c3b54ea3bd411eac16b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30d49e9809480a819f5f98c2ed678428') in 0.002135 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.045428 seconds.
+  path: Assets/CST426_Project1/Assets/StudioBillion/House Interior/Prefabs/Pan.prefab
+  artifactKey: Guid(c6200450c7b44fe4db68c04a52214e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CST426_Project1/Assets/StudioBillion/House Interior/Prefabs/Pan.prefab using Guid(c6200450c7b44fe4db68c04a52214e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c905c3025e4f232b8530f32ffa4adcf0') in 0.002243 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.001582 seconds.
+  path: Assets/CST426_Project1/Assets/StudioBillion/House Interior/Prefabs/Pc Chair.prefab
+  artifactKey: Guid(41e7be93cce9ce849b7c7a2bf3efa53c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CST426_Project1/Assets/StudioBillion/House Interior/Prefabs/Pc Chair.prefab using Guid(41e7be93cce9ce849b7c7a2bf3efa53c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c7c634b9eb7f32c084394c3776c52f7') in 0.001651 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.001978 seconds.
+  path: Assets/CST426_Project1/Assets/StudioBillion/House Interior/Prefabs/Sink.prefab
+  artifactKey: Guid(f7d5928fa0ced42438e423a699042bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CST426_Project1/Assets/StudioBillion/House Interior/Prefabs/Sink.prefab using Guid(f7d5928fa0ced42438e423a699042bea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ad06ee3c0e50e1326ce7acfe74b5f74') in 0.001609 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.282916 seconds.
+  path: Assets/CST426_Project1/Assets/StudioBillion/House Interior/Prefabs/Sofa.prefab
+  artifactKey: Guid(8cc19b07d5576a142ab364dceba0b59f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CST426_Project1/Assets/StudioBillion/House Interior/Prefabs/Sofa.prefab using Guid(8cc19b07d5576a142ab364dceba0b59f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9f710ea1b8f99871d5b0672782abbe5') in 0.002185 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.001806 seconds.
+  path: Assets/CST426_Project1/Assets/StudioBillion/House Interior/Prefabs/Sofa2.prefab
+  artifactKey: Guid(907ecf7a8b8a77f458a6fe23b736ab35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CST426_Project1/Assets/StudioBillion/House Interior/Prefabs/Sofa2.prefab using Guid(907ecf7a8b8a77f458a6fe23b736ab35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2869026012f63dca38643242ac9cb77a') in 0.001606 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.001865 seconds.
+  path: Assets/CST426_Project1/Assets/StudioBillion/House Interior/Prefabs/Towel.prefab
+  artifactKey: Guid(1c2353919980e404eacd1806ab48bdc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CST426_Project1/Assets/StudioBillion/House Interior/Prefabs/Towel.prefab using Guid(1c2353919980e404eacd1806ab48bdc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '944b00dc84872028778eb87853c50bfc') in 0.001961 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.421232 seconds.
+  path: Assets/CST426_Project1/Assets/StudioBillion/House Interior/Prefabs/Tv Unit.prefab
+  artifactKey: Guid(7b8690bd606351446acb7bdbba384864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CST426_Project1/Assets/StudioBillion/House Interior/Prefabs/Tv Unit.prefab using Guid(7b8690bd606351446acb7bdbba384864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4bc811e424257969e61991e090fbf86') in 0.003074 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time since last request: 0.000856 seconds.
+  path: Assets/CST426_Project1/Assets/StudioBillion/House Interior/Prefabs/Vase.prefab
+  artifactKey: Guid(ff5bf702d38e8f64aaaa8f796c9a86e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CST426_Project1/Assets/StudioBillion/House Interior/Prefabs/Vase.prefab using Guid(ff5bf702d38e8f64aaaa8f796c9a86e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f853f52a348e8df5eae238dac90ad324') in 0.001772 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.002328 seconds.
+  path: Assets/CST426_Project1/Assets/StudioBillion/House Interior/Prefabs/Wardrobe.prefab
+  artifactKey: Guid(dc1497c8b945e53429d8b31f1a4a47fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CST426_Project1/Assets/StudioBillion/House Interior/Prefabs/Wardrobe.prefab using Guid(dc1497c8b945e53429d8b31f1a4a47fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b15457b68b0279f075cbc9c1ec04dec') in 0.001758 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.773014 seconds.
+  path: Assets/CST426_Project1/Assets/StudioBillion/House Interior/Prefabs/Washer.prefab
+  artifactKey: Guid(5749da2509381fa47b112f5f299db021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CST426_Project1/Assets/StudioBillion/House Interior/Prefabs/Washer.prefab using Guid(5749da2509381fa47b112f5f299db021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ac654556d5582478fd3445b0da64a10') in 0.002619 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 7.391154 seconds.
+  path: Assets/CST426_Project1/Assets/StudioBillion/House Interior/Scenes
+  artifactKey: Guid(db1182e4f3092a746b74edb754771e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CST426_Project1/Assets/StudioBillion/House Interior/Scenes using Guid(db1182e4f3092a746b74edb754771e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f7286baf016147a0a2d082753f457f4') in 0.001005 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.381 seconds
+Refreshing native plugins compatible for Editor in 2.82 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.776 seconds
+Domain Reload Profiling: 1153ms
+	BeginReloadAssembly (133ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (183ms)
+		LoadAssemblies (239ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (777ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (320ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (55ms)
+			ProcessInitializeOnLoadAttributes (231ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 3.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3064 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3582.
+Memory consumption went from 118.3 MB to 118.3 MB.
+Total: 2.388600 ms (FindLiveObjects: 0.243800 ms CreateObjectMapping: 0.071700 ms MarkObjects: 2.028400 ms  DeleteObjects: 0.043400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
