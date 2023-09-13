@@ -9,7 +9,10 @@ using UnityEngine;
 
 public class orbitCam : MonoBehaviour
 {
+    [Header("References")]
     public Transform target;
+
+    [Header("Values")]
     [Range(0f,10f)]
     public float rotationSpeed = 5f;
     public float iDistance; //initial distance
