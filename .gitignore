@@ -295,10 +295,10 @@ dlldata.c
 # Benchmark Results
 BenchmarkDotNet.Artifacts/
 
-# .NET Core
-project.lock.json
-project.fragment.lock.json
-artifacts/
+# # .NET Core
+# project.lock.json
+# project.fragment.lock.json
+# artifacts/
 
 # ASP.NET Scaffolding
 ScaffoldingReadMe.txt
@@ -376,10 +376,10 @@ _TeamCity*
 .axoCover/*
 !.axoCover/settings.json
 
-# Coverlet is a free, cross platform Code Coverage Tool
-coverage*.json
-coverage*.xml
-coverage*.info
+# # Coverlet is a free, cross platform Code Coverage Tool
+# coverage*.json
+# coverage*.xml
+# coverage*.info
 
 # Visual Studio code coverage results
 *.coverage
