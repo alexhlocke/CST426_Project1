@@ -12,9 +12,7 @@ public class life : MonoBehaviour
     public float health;
     
     [Header("Status Effects")]
-    public bool isMoldy = false;
     public float moldPercent = 0f;
-    public bool isCooked = false;
     public float cookedPercent = 0f;
 
     void Start() {
@@ -23,5 +21,16 @@ public class life : MonoBehaviour
 
     void Update() {
         
+    }
+
+    public void takeDamage(float damageAmount) {
+        health -= damageAmount;
+        if (health <= 0) {
+            die();
+        }
+    }
+
+    public void die() {
+        Debug.Log("Died");
     }
 }

@@ -11,16 +11,20 @@ public class CameraManager : MonoBehaviour
     public CinemachineVirtualCamera overheadCam;
 
 
+    void Start() {
+        setPriority("overhead");
+    }
+
     void Update() {
-        //If push tab, swap cams
-        if (Input.GetKeyDown(KeyCode.Tab)) {
-            swapCams();
-        }
+        // //If push tab, swap cams
+        // if (Input.GetKeyDown(KeyCode.Tab)) {
+        //     swapCams();
+        // }
         
-        //--DEBUGGING--
-        if (Input.GetKeyDown(KeyCode.Space)) {
-            setPriority("overhead");
-        }
+        // //--DEBUGGING--
+        // if (Input.GetKeyDown(KeyCode.Space)) {
+        //     setPriority("overhead");
+        // }
     }
 
     public void setPriority(string camName) {
