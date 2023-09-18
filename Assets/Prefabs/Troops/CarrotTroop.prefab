@@ -1114,6 +1114,7 @@ GameObject:
   - component: {fileID: 8981583172393620569}
   - component: {fileID: 2348150823533595414}
   - component: {fileID: 8669165019153931243}
+  - component: {fileID: 7811272559390922350}
   m_Layer: 0
   m_Name: Carrot Mesh
   m_TagString: Untagged
@@ -1209,6 +1210,27 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 3613567641014311022, guid: 64b662fa81cd39542a90d0f1b8284eb4, type: 3}
+--- !u!95 &7811272559390922350
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6189427795874836421}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: be7fa5ef4fccab948a43aa0e360cf1af, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &7578594016593482637
 GameObject:
   m_ObjectHideFlags: 0
