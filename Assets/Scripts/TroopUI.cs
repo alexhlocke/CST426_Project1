@@ -16,7 +16,7 @@ public class TroopUI : MonoBehaviour
     }
     
     void Update() {
-        transform.forward = Camera.main.transform.forward;
+        // transform.forward = Camera.main.transform.forward;
 
         //update life bar
         healthSlider.value = lifeManager.health / lifeManager.maxHealth;
