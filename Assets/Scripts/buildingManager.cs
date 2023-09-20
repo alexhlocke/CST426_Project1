@@ -14,7 +14,7 @@ public class buildingManager : MonoBehaviour
 	[SerializeField] private LayerMask layerMask;
 
 	public float gridSize;
-	private bool gridIsOn = false;
+	private bool gridIsOn = true;
 	[SerializeField] private Toggle gridToggle;
 
 	// Update is called once per frame
