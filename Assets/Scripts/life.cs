@@ -38,6 +38,7 @@ public class life : MonoBehaviour
     }
 
     public void die() {
+        //Death
         Debug.Log("Died");
         died = true;
     }

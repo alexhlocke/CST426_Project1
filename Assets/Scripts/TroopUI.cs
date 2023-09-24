@@ -21,7 +21,7 @@ public class TroopUI : MonoBehaviour
     private TextMeshProUGUI moldP;
     private TextMeshProUGUI cookedP;
     private bool isDead = false; 
-    private bool isCooked = false; 
+    private bool isCooked = false;  
     
 
     void Awake() {
