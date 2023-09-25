@@ -15,6 +15,8 @@ public class life : MonoBehaviour
     public float moldPercent = 0f;
     public float cookedPercent = 0f;
 
+    private bool died = false;
+
     void Start() {
         health = maxHealth;
     }
@@ -24,6 +26,11 @@ public class life : MonoBehaviour
     }
 
     public void takeDamage(float damageAmount) {
+        //Don't do anything if dead
+        if(died) {
+            return;
+        }
+
         health -= damageAmount;
         if (health <= 0) {
             die();
@@ -31,6 +38,12 @@ public class life : MonoBehaviour
     }
 
     public void die() {
+        //Death
         Debug.Log("Died");
+        died = true;
+    }
+
+    public bool isDead() {
+        return died;
     }
 }
