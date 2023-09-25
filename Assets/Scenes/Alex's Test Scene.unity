@@ -4525,6 +4525,42 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7732199072711298183, guid: f1c0be7d6721b174c9bbbafce8ee22df, type: 3}
+      propertyPath: ShapeModule.angle
+      value: 36.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 7732199072711298183, guid: f1c0be7d6721b174c9bbbafce8ee22df, type: 3}
+      propertyPath: VelocityModule.enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7732199072711298183, guid: f1c0be7d6721b174c9bbbafce8ee22df, type: 3}
+      propertyPath: VelocityModule.x.scalar
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7732199072711298183, guid: f1c0be7d6721b174c9bbbafce8ee22df, type: 3}
+      propertyPath: VelocityModule.y.scalar
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7732199072711298183, guid: f1c0be7d6721b174c9bbbafce8ee22df, type: 3}
+      propertyPath: VelocityModule.z.scalar
+      value: -0.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 7732199072711298183, guid: f1c0be7d6721b174c9bbbafce8ee22df, type: 3}
+      propertyPath: InitialModule.startSpeed.scalar
+      value: 1.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 7732199072711298183, guid: f1c0be7d6721b174c9bbbafce8ee22df, type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 3.31
+      objectReference: {fileID: 0}
+    - target: {fileID: 7732199072711298183, guid: f1c0be7d6721b174c9bbbafce8ee22df, type: 3}
+      propertyPath: InitialModule.startLifetime.scalar
+      value: 1.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7732199072711298183, guid: f1c0be7d6721b174c9bbbafce8ee22df, type: 3}
+      propertyPath: RotationBySpeedModule.curve.scalar
+      value: 1.359786
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
