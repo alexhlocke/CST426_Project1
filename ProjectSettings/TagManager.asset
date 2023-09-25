@@ -6,6 +6,7 @@ TagManager:
   tags:
   - troop
   - mold
+  - enemy
   layers:
   - Default
   - TransparentFX
