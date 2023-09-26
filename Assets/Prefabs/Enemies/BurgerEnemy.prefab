@@ -853,8 +853,8 @@ GameObject:
   - component: {fileID: 6348421478592666298}
   - component: {fileID: 6294068280135661644}
   m_Layer: 0
-  m_Name: Enemy1
-  m_TagString: troop
+  m_Name: BurgerEnemy
+  m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
