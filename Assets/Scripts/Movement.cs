@@ -30,7 +30,9 @@ public class Movement : MonoBehaviour
         GameObject[] enemyArray = GameObject.FindGameObjectsWithTag(enemyTag);
         foreach (GameObject enemy in enemyArray)
         {
-            enemies.Add(enemy.transform);
+            if (!enemy.GetComponent<life>().isDead()) {
+                enemies.Add(enemy.transform);
+            }
         }
     }
     
@@ -51,6 +53,10 @@ public class Movement : MonoBehaviour
 
         foreach (Transform enemy in enemies)
         {
+            if (enemy.GetComponent<life>().isDead()) {
+                continue;
+            }
+
             float distance = Vector3.Distance(transform.position, enemy.position);
             
             if (distance < closestDistance)
@@ -60,6 +66,10 @@ public class Movement : MonoBehaviour
             }
         }
 
-        agent.SetDestination(closestEnemy.position);
+        if (closestEnemy != null) {
+            agent.SetDestination(closestEnemy.position);
+        } else {
+            agent.SetDestination(Vector3.zero);
+        }
     }
 }

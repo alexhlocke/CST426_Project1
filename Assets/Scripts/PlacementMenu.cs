@@ -29,6 +29,7 @@ public class PlacementMenu : MonoBehaviour
         // Loop through each GameObject and set Movement component to active.
         foreach (GameObject unit in allUnits) {
             Movement movementComponent = unit.GetComponent<Movement>();
+            CapsuleCollider col = unit.GetComponent<CapsuleCollider>();
             // Catch oopsie woopsie fucky wuckies
             if (movementComponent != null) {
                 movementComponent.enabled = true;
@@ -36,6 +37,14 @@ public class PlacementMenu : MonoBehaviour
             }
             else {
                 Debug.LogWarning("No 'Movement' component found on " + unit.name);
+            }
+
+            // Catch oopsie woopsie fucky wuckies
+            if (col != null) {
+                col.enabled = true;
+            }
+            else {
+                Debug.LogWarning("No 'CapsuleCollider' component found on " + unit.name);
             }
         }
 

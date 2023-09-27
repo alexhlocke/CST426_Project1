@@ -9,11 +9,12 @@ public class Attacking : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision) {
         //debug
-            Debug.Log("ENTERED COLLISION");
+        Debug.Log("ENTERED COLLISION: " + collision.gameObject.tag);
 
 
         //check tags
         if (collision.gameObject.CompareTag("enemy")) {
+            
 
             //try to get the 'Life' component from the collided object.
             life enemyLife = collision.gameObject.GetComponent<life>();

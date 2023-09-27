@@ -41,6 +41,12 @@ public class life : MonoBehaviour
         //Death
         Debug.Log("Died");
         died = true;
+
+        //remove shit
+        GetComponent<Movement>().enabled = false;
+        Destroy(GetComponent<Rigidbody>());
+        Destroy(GetComponent<CapsuleCollider>());
+        //Destroy(NavMeshAgent);
     }
 
     public bool isDead() {
