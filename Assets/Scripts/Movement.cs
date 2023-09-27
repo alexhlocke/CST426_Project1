@@ -25,7 +25,7 @@ public class Movement : MonoBehaviour
         }
     }
 
-    void FindEnemies()
+    public void FindEnemies()
     {
         GameObject[] enemyArray = GameObject.FindGameObjectsWithTag(enemyTag);
         foreach (GameObject enemy in enemyArray)

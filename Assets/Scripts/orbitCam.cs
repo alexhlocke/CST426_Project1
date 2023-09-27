@@ -25,11 +25,14 @@ public class orbitCam : MonoBehaviour
 
     private float distance; 
     private Vector3 offset; //offset from target to camera
+    private CameraManager camManager;
 
     private void Start()
     {
         distance = iDistance;
         offset = transform.position - target.position;
+
+        camManager = Camera.main.gameObject.GetComponent<CameraManager>();
     }
 
     public void setTarget(Transform newTarget) {
@@ -67,8 +70,17 @@ public class orbitCam : MonoBehaviour
             if (Physics.Raycast(ray, out hit)) {
                 Debug.Log("ID: " + hit.transform.name);
 
-                //move camera
                 target = hit.transform;
+
+                //lol i tried ok
+                // //if right tags do some shit
+                // if (hit.transform.CompareTag("troop") || hit.transform.CompareTag("enemy")) {
+                //     //move camera
+                //     target = hit.transform;
+
+                //     //set orbit cam as highest priority
+                //     camManager.setPriority("orbit");
+                // }
             } else {
             }
         }
