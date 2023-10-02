@@ -39,6 +39,12 @@ public class PlacementMenu : MonoBehaviour
                 Debug.LogWarning("No 'Movement' component found on " + unit.name);
             }
 
+            RangedAttacking rangedAttacking = unit.GetComponent<RangedAttacking>();
+            // Catch oopsie woopsie fucky wuckies
+            if (rangedAttacking != null) {
+                rangedAttacking.enabled = true;
+            }
+
             // Catch oopsie woopsie fucky wuckies
             if (col != null) {
                 col.enabled = true;
