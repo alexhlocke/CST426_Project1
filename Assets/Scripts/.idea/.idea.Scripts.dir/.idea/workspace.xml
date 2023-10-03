@@ -2,9 +2,318 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8030ad31-7aba-4121-9ad1-6582210833cc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Scenes/Richard's Test.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../Scenes/Richard's Test.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Scripts.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Scripts.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Movement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Movement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CarrotTroop.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CarrotTroop.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CarrotUV.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CarrotUV.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Carrotfbx.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Carrotfbx.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Scenes/Alex's Test Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../Scenes/Alex's Test Scene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/../Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TroopUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/TroopUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/life.cs" beforeDir="false" afterPath="$PROJECT_DIR$/life.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orbitCam.cs" beforeDir="false" afterPath="$PROJECT_DIR$/orbitCam.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/BLU.006.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/BLU.006.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/BLU.1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/BLU.1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/BLU.2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/BLU.2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/BLU.3.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/BLU.3.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/BLU.4.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/BLU.4.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/BRW.009.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/BRW.009.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/BRW.011.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/BRW.011.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/BRW.014.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/BRW.014.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/BRW.015.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/BRW.015.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/BRW.1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/BRW.1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/BRW.2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/BRW.2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/BRW.3.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/BRW.3.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/BRW.6.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/BRW.6.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/Emissive.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/Emissive.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/Floor.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/Floor.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/GRN.1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/GRN.1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/GRN.5.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/GRN.5.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/GRN.6.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/GRN.6.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/GRY.005.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/GRY.005.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/GRY.011.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/GRY.011.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/GRY.012.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/GRY.012.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/GRY.1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/GRY.1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/GRY.2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/GRY.2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/GRY.3.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/GRY.3.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/GRY.4.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/GRY.4.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/Material.001.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/Material.001.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/Material.002.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/Material.002.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/Material.003.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/Material.003.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/Material.004.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/Material.004.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/Material.005.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/Material.005.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/Material.006.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/Material.006.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/Material.007.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/Material.007.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/Material.008.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/Material.008.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/Material.009.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/Material.009.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/Material.010.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/Material.010.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/Material.011.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/Material.011.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/Material.012.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/Material.012.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/Material.013.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/Material.013.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/Material.014.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/Material.014.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/Material.015.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/Material.015.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/Material.017.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/Material.017.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/Material.018.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/Material.018.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/Material.019.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/Material.019.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/Material.020.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/Material.020.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/Material.021.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/Material.021.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/Material.022.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/Material.022.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/Material.023.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/Material.023.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/Material.024.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/Material.024.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/New Lighting Settings.lighting" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/New Lighting Settings.lighting.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/ORG.011.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/ORG.011.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/ORG.012.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/ORG.012.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/ORG.2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/ORG.2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/ORG.3.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/ORG.3.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/ORG.4.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/ORG.4.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/ORG.5.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/ORG.5.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/PNK.1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/PNK.1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/RED.006.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/RED.006.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/RED.007.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/RED.007.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/RED.008.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/RED.008.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/RED.010.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/RED.010.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/RED.2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/RED.2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/SKIN.007.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/SKIN.007.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/SKIN.008.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/SKIN.008.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/TQZ.1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/TQZ.1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/WHT.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/WHT.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/YLW.1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/YLW.1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/background.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/background.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/box_brown.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/box_brown.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/box_gray.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/box_gray.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/box_orange.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/box_orange.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/box_white.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/box_white.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/chair.1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/chair.1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/chair.2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/chair.2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/chair.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/chair.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/drum1_black.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/drum1_black.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/drum1_gold.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/drum1_gold.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/drum1_gray.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/drum1_gray.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/drum1_pruple2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/drum1_pruple2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/drum1_purple1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/drum1_purple1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/drum1_red.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/drum1_red.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/drum1_white.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/drum1_white.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/drum1_yellow.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/drum1_yellow.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/drum_stool_black.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/drum_stool_black.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/drum_stool_gray.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/drum_stool_gray.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/drum_stool_red.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/drum_stool_red.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/fridge_gray.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/fridge_gray.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/glass.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/glass.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/glass2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/glass2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/laptop_gray1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/laptop_gray1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/laptop_gray2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/laptop_gray2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/laptop_gray3.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/laptop_gray3.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/laptop_logo.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/laptop_logo.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/laptop_screen.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/laptop_screen.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/washer_black.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/washer_black.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/washer_glass.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/washer_glass.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/washer_gray1.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/washer_gray1.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/washer_gray2.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/washer_gray2.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/washer_white.mat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Materials/washer_white.mat.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Models.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Models/House.fbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Models/House.fbx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Prefabs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Prefabs/Arcade.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Prefabs/Arcade.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Prefabs/Armchair.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Prefabs/Armchair.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Prefabs/Armchair2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Prefabs/Armchair2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Prefabs/Basket.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Prefabs/Basket.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Prefabs/Bath Carpet.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Prefabs/Bath Carpet.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Prefabs/Bath.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Prefabs/Bath.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Prefabs/Bed.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Prefabs/Bed.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Prefabs/Books.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Prefabs/Books.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Prefabs/Boxes.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Prefabs/Boxes.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Prefabs/Carpet 002.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Prefabs/Carpet 002.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Prefabs/Carpet1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Prefabs/Carpet1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Prefabs/Carpet2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Prefabs/Carpet2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Prefabs/Chairs.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Prefabs/Chairs.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Prefabs/Chess.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Prefabs/Chess.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Prefabs/Closet.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Prefabs/Closet.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Prefabs/Coffee Table.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Prefabs/Coffee Table.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Prefabs/Cooker.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Prefabs/Cooker.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Prefabs/Desk.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Prefabs/Desk.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Prefabs/Dinner Table.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Prefabs/Dinner Table.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Prefabs/Dishes.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Prefabs/Dishes.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Prefabs/Drum.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Prefabs/Drum.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Prefabs/Fridge.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Prefabs/Fridge.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Prefabs/Glass.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Prefabs/Glass.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Prefabs/House 2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Prefabs/House 2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Prefabs/Kitchen Stuff.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Prefabs/Kitchen Stuff.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Prefabs/Kitchen.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Prefabs/Kitchen.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Prefabs/Lamp.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Prefabs/Lamp.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Prefabs/Laptop.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Prefabs/Laptop.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Prefabs/Microwave.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Prefabs/Microwave.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Prefabs/Mirror.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Prefabs/Mirror.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Prefabs/Painting.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Prefabs/Painting.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Prefabs/Pan.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Prefabs/Pan.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Prefabs/Pc Chair.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Prefabs/Pc Chair.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Prefabs/Sink.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Prefabs/Sink.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Prefabs/Sofa.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Prefabs/Sofa.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Prefabs/Sofa2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Prefabs/Sofa2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Prefabs/Towel.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Prefabs/Towel.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Prefabs/Tv Unit.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Prefabs/Tv Unit.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Prefabs/Vase.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Prefabs/Vase.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Prefabs/Wardrobe.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Prefabs/Wardrobe.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Prefabs/Washer.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Prefabs/Washer.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Scenes/House Interior - Lightning Settings.lighting" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Scenes/House Interior - Lightning Settings.lighting.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Scenes/House Interior - Post Process Profiles.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Scenes/House Interior - Post Process Profiles/Main Camera Profile.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Scenes/House Interior - Post Process Profiles/Main Camera Profile.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Scenes/House Interior.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Scenes/House Interior.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Scenes/House Interior.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Scenes/House Interior/LightingData.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Scenes/House Interior/LightingData.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Scenes/House Interior/ReflectionProbe-0.exr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudioBillion/House Interior/Scenes/House Interior/ReflectionProbe-0.exr.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProjectSettings/QualitySettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/../../ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -12,12 +321,22 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/../.." value="main" />
+      </map>
+    </option>
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Movement.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PauseManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/life.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectId" id="2Va5E4ZSKoDopahk2NuoaNBDVp4" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -32,9 +351,9 @@
   },
   &quot;keyToStringList&quot;: {
     &quot;rider.external.source.directories&quot;: [
-      &quot;C:\\Users\\Richard Lieu\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\DecompilerCache&quot;,
-      &quot;C:\\Users\\Richard Lieu\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\SourcesCache&quot;,
-      &quot;C:\\Users\\Richard Lieu\\AppData\\Local\\Symbols\\src&quot;
+      &quot;C:\\Users\\lol\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\lol\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\lol\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
 }</component>
@@ -50,12 +369,15 @@
       <workItem from="1695063327481" duration="192000" />
       <workItem from="1695229779009" duration="578000" />
       <workItem from="1695230441714" duration="1505000" />
+      <workItem from="1696291659933" duration="91000" />
+      <workItem from="1696291777666" duration="182000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
