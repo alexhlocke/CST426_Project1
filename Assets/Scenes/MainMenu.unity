@@ -919,7 +919,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: ' Food Wars'
+  m_text: The Last Supper
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 433578e3a2d063549be463470b5c83ab, type: 2}
   m_sharedMaterial: {fileID: 6177604439409472671, guid: 433578e3a2d063549be463470b5c83ab, type: 2}
@@ -928,8 +928,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:

@@ -81,7 +81,6 @@ public class orbitCam : MonoBehaviour
                 //     //set orbit cam as highest priority
                 //     camManager.setPriority("orbit");
                 // }
-            } else {
             }
         }
     }
