@@ -3,7 +3,7 @@ Alex Locke |
 Edgar Fuentes |
 Richard Lieu
 
-# Project Name: Food Fight (Working Title)
+# Project Name: The Last Supper
 
 **What is the problem being solved / question being asked?**
 
