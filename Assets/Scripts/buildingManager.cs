@@ -6,7 +6,10 @@ using TMPro;
 
 public class buildingManager : MonoBehaviour 
 {
-	public GameObject[] objects;
+    public GameObject StateManagerObject;
+    private StateManager stateManager;
+
+    public GameObject[] objects;
 	public GameObject pendingObject;
 	private Vector3 position;
 	public float rotateAmount;
@@ -27,7 +30,8 @@ public class buildingManager : MonoBehaviour
 	void Awake()
 	{
 		moneyText = cost.GetComponent<TextMeshProUGUI>();
-	}
+        stateManager = StateManagerObject.GetComponent<StateManager>();
+    }
 
 	// Update is called once per frame
     void Update()
@@ -57,6 +61,29 @@ public class buildingManager : MonoBehaviour
 			    RotateObject();
 		    }
 	    }
+
+		/*if (stateManager.currentGameState == StateManager.GameState.Placing)
+        {
+            if (Input.GetMouseButtonDown(1))
+            {
+                Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+                RaycastHit hit;
+
+                // Check if we hit an object
+                if (Physics.Raycast(ray, out hit))
+                {
+                    GameObject hitObject = hit.transform.gameObject;
+
+                    // Check if the hit object has the "troop" tag
+                    if (hitObject.CompareTag("troop"))
+                    {
+                        // Disable the object
+                        hitObject.SetActive(false);
+                        Debug.Log("Clicked");
+                    }
+                }
+            }
+        }*/
     }
 
     public void PlaceObject()
