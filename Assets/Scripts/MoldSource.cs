@@ -24,9 +24,8 @@ public class MoldSource : MonoBehaviour
         Gizmos.DrawWireSphere(transform.position, radius);
     }
     
-    void OnCollisionEnter(Collision col)
+    void OnTriggerEnter(Collider col)
     {
-        Debug.Log("trigger entered");
         if (col.gameObject.CompareTag("troop") || col.gameObject.CompareTag("enemy"))
         {
             MoldDebuff moldManager = col.gameObject.GetComponent<MoldDebuff>();

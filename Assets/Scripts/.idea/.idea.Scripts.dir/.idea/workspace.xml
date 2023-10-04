@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8030ad31-7aba-4121-9ad1-6582210833cc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Scripts.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Scripts.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MoldDebuff.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MoldDebuff.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Attacking.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Attacking.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MoldSource.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MoldSource.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +25,7 @@
     <setting file="file://$PROJECT_DIR$/MoldSource.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Movement.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/PauseManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PlacementMenu.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/TroopUI.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/life.cs" root0="FORCE_HIGHLIGHTING" />
   </component>

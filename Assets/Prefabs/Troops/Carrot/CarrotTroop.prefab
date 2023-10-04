@@ -592,7 +592,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 254f2f5e0c6ae934cb665f78cf8544ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  duration: 5.1
+  duration: 10.1
   tickRate: 1
   maxStacks: 5
   currentStacks: 0

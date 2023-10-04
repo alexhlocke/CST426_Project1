@@ -13,7 +13,7 @@ public class Attacking : MonoBehaviour
 
 
         //check tags
-        if (collision.gameObject.CompareTag("enemy")) {
+        if (collision.gameObject.CompareTag("enemy") || collision.gameObject.CompareTag("troop")) {
             
 
             //try to get the 'Life' component from the collided object.
