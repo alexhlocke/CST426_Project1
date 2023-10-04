@@ -23,4 +23,16 @@ public class MoldSource : MonoBehaviour
         Gizmos.color = Color.green;
         Gizmos.DrawWireSphere(transform.position, radius);
     }
+    
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("troop") || other.CompareTag("enemy"))
+        {
+            GetComponent<MoldDebuff>().ToggleScript();
+            if (GetComponent<MoldDebuff>().duration < 0)
+            {
+                GetComponent<MoldDebuff>().duration = 10;
+            }
+        }
+    }
 }
