@@ -70,10 +70,14 @@ public class MoldDebuff : MonoBehaviour
     	if(active == false)
 		{
 			active = true;
-		}
-		if(active == true)
+		} else
 		{
 			active = false;
 		}
+	}
+
+	public void ActivateScript() 
+	{
+		active = true;
 	}
 }

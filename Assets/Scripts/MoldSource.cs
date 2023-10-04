@@ -24,14 +24,16 @@ public class MoldSource : MonoBehaviour
         Gizmos.DrawWireSphere(transform.position, radius);
     }
     
-    void OnTriggerEnter(Collider other)
+    void OnCollisionEnter(Collision col)
     {
-        if (other.CompareTag("troop") || other.CompareTag("enemy"))
+        Debug.Log("trigger entered");
+        if (col.gameObject.CompareTag("troop") || col.gameObject.CompareTag("enemy"))
         {
-            GetComponent<MoldDebuff>().ToggleScript();
-            if (GetComponent<MoldDebuff>().duration < 0)
+            MoldDebuff moldManager = col.gameObject.GetComponent<MoldDebuff>();
+            moldManager.ActivateScript();
+            if (moldManager.duration < 0)
             {
-                GetComponent<MoldDebuff>().duration = 10;
+                moldManager.duration = 10;
             }
         }
     }
