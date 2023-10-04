@@ -11,7 +11,7 @@ public class buildingManager : MonoBehaviour
 	private Vector3 position;
 	public float rotateAmount;
 
-	private int money = 100;
+	public int money = 100;
 	
 	private TextMeshProUGUI moneyText;
 	
@@ -92,6 +92,17 @@ public class buildingManager : MonoBehaviour
 		    if (index == 1 && money >= 40)
 		    {
 			    money -= 40;
+			    pendingObject = Instantiate(objects[index], position, transform.rotation);
+			    moneyText.text = money.ToString();
+		    }
+			if (index == 2 && money >= 30)
+		    {
+			    money -= 30;
+			    pendingObject = Instantiate(objects[index], position, transform.rotation);
+			    moneyText.text = money.ToString();
+		    }
+			if (index == 3)
+		    {
 			    pendingObject = Instantiate(objects[index], position, transform.rotation);
 			    moneyText.text = money.ToString();
 		    }
