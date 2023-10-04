@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class buildingManager : MonoBehaviour 
 {
@@ -10,12 +11,23 @@ public class buildingManager : MonoBehaviour
 	private Vector3 position;
 	public float rotateAmount;
 
+	private int money = 100;
+	
+	private TextMeshProUGUI moneyText;
+	
+	public GameObject cost;
+
 	private RaycastHit hit;
 	[SerializeField] private LayerMask layerMask;
 
 	public float gridSize;
 	private bool gridIsOn = true;
 	[SerializeField] private Toggle gridToggle;
+
+	void Awake()
+	{
+		moneyText = cost.GetComponent<TextMeshProUGUI>();
+	}
 
 	// Update is called once per frame
     void Update()
@@ -69,7 +81,25 @@ public class buildingManager : MonoBehaviour
 
     public void SelectObecjt(int index)
     {
-	    pendingObject = Instantiate(objects[index], position, transform.rotation);
+	    if (money > 0)
+	    {
+		    if (index == 0 && money >= 20)
+		    {
+			    money -= 20;
+			    pendingObject = Instantiate(objects[index], position, transform.rotation);
+			    moneyText.text = money.ToString();
+		    }
+		    if (index == 1 && money >= 40)
+		    {
+			    money -= 40;
+			    pendingObject = Instantiate(objects[index], position, transform.rotation);
+			    moneyText.text = money.ToString();
+		    }
+	    }
+	    else
+	    {
+		    Debug.Log("Broke ass motherfucker!");
+	    }
     }
 
     public void ToggleGrid()
