@@ -39,10 +39,30 @@ public class buildingManager : MonoBehaviour
 		    {
 				    PlaceObject();
 		    }
-
+		    
 		    if (Input.GetKeyDown(KeyCode.R))
 		    {
 			    RotateObject();
+		    }
+	    }
+
+	    if (Input.GetMouseButtonDown(1))
+	    {
+		    Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+		    RaycastHit hit;
+
+		    // Check if we hit an object
+		    if (Physics.Raycast(ray, out hit))
+		    {
+			    GameObject hitObject = hit.transform.gameObject;
+
+			    // Check if the hit object has the "troop" tag
+			    if (hitObject.CompareTag("troop"))
+			    {
+				    // Disable the object
+				    hitObject.SetActive(false);
+				    Debug.Log("Clicked");
+			    }
 		    }
 	    }
     }
@@ -69,7 +89,16 @@ public class buildingManager : MonoBehaviour
 
     public void SelectObecjt(int index)
     {
-	    pendingObject = Instantiate(objects[index], position, transform.rotation);
+	    if (index == 0 || index == 1 || index == 2)
+	    {
+		    pendingObject = Instantiate(objects[index], position, transform.rotation);
+		    Debug.Log("Hello");
+	    }
+
+	    if (index == 3)
+	    {
+		    
+	    }
     }
 
     public void ToggleGrid()
