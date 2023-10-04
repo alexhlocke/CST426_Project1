@@ -37,6 +37,11 @@ public class PauseManager : MonoBehaviour
 
     public void pause()
     {
+        if (isPaused) {
+            resume();
+            return;
+        }
+
         pauseMenu.SetActive(true);
         mainUI.SetActive(false);
         Time.timeScale = 0f;

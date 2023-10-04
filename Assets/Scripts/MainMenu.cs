@@ -5,6 +5,20 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
+    public GameObject audio;
+    private FlatAudioManager audioManager;
+
+    void Awake() {
+        audio = GameObject.Find("Audio");
+        audioManager = audio.GetComponent<FlatAudioManager>();
+    }
+
+    void Start() {
+        audioManager.playFlatSound("Jazz");
+    }
+
+//audioManager.playFlatSound("Select");
+
     public void PlayGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);

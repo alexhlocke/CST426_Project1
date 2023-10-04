@@ -31,6 +31,8 @@ public class buildingManager : MonoBehaviour
 	{
 		moneyText = cost.GetComponent<TextMeshProUGUI>();
         stateManager = StateManagerObject.GetComponent<StateManager>();
+
+		moneyText.text = money.ToString();
     }
 
 	// Update is called once per frame
