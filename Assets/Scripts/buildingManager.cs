@@ -27,6 +27,7 @@ public class buildingManager : MonoBehaviour
 	void Awake()
 	{
 		moneyText = cost.GetComponent<TextMeshProUGUI>();
+		moneyText.text = money.ToString();
 	}
 
 	// Update is called once per frame
@@ -95,13 +96,13 @@ public class buildingManager : MonoBehaviour
 			    pendingObject = Instantiate(objects[index], position, transform.rotation);
 			    moneyText.text = money.ToString();
 		    }
-			if (index == 2 && money >= 30)
+			if (index == 3 && money >= 30)
 		    {
 			    money -= 30;
 			    pendingObject = Instantiate(objects[index], position, transform.rotation);
 			    moneyText.text = money.ToString();
 		    }
-			if (index == 3)
+			if (index == 2)
 		    {
 			    pendingObject = Instantiate(objects[index], position, transform.rotation);
 			    moneyText.text = money.ToString();

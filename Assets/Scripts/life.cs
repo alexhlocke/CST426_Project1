@@ -50,10 +50,19 @@ public class life : MonoBehaviour
         died = true;
 
         //remove shit
-        GetComponent<Movement>().enabled = false;
-        Destroy(GetComponent<Rigidbody>());
+        if (GetComponent<Movement>() != null) {
+            GetComponent<Movement>().enabled = false;
+        }
+        if (GetComponent<Rigidbody>() != null) {
+            Destroy(GetComponent<Rigidbody>());
+        }
         Destroy(GetComponent<CapsuleCollider>());
-        //Destroy(NavMeshAgent);
+        if (GetComponent<RangedAttacking>() != null) {
+            GetComponent<RangedAttacking>().enabled = false;
+        }
+        if (GetComponent<Attacking>() != null) {
+            GetComponent<Attacking>().enabled = false;
+        }
 
         audioManager.playFlatSound("Death");
     }
