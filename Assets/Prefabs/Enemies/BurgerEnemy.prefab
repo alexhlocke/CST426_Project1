@@ -856,6 +856,7 @@ GameObject:
   - component: {fileID: 1327166410730214153}
   - component: {fileID: 1015310713517660877}
   - component: {fileID: 4096807730729598421}
+  - component: {fileID: 8451808597254446089}
   m_Layer: 0
   m_Name: BurgerEnemy
   m_TagString: enemy
@@ -981,6 +982,24 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &8451808597254446089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3759690022008727049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 254f2f5e0c6ae934cb665f78cf8544ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  duration: 5.1
+  tickRate: 1
+  maxStacks: 5
+  currentStacks: 0
+  damagePerTick: 1
+  active: 0
 --- !u!1 &3856264294169389181
 GameObject:
   m_ObjectHideFlags: 0

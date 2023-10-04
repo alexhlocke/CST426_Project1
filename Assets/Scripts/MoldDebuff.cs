@@ -49,6 +49,8 @@ public class MoldDebuff : MonoBehaviour
                 	timer = 0f; // Reset the timer for the next tick
             	}
         	}
+
+			GetComponent<life>().moldPercent = currentStacks;
 		}
     }
 
@@ -64,17 +66,6 @@ public class MoldDebuff : MonoBehaviour
             currentStacks++;
         }
     }
-
-	public void ToggleScript()
-	{
-    	if(active == false)
-		{
-			active = true;
-		} else
-		{
-			active = false;
-		}
-	}
 
 	public void ActivateScript() 
 	{

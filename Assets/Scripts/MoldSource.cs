@@ -31,10 +31,6 @@ public class MoldSource : MonoBehaviour
         {
             MoldDebuff moldManager = col.gameObject.GetComponent<MoldDebuff>();
             moldManager.ActivateScript();
-            if (moldManager.duration < 0)
-            {
-                moldManager.duration = 10;
-            }
         }
     }
 }
