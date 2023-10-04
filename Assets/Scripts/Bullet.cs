@@ -10,6 +10,14 @@ public class Bullet : MonoBehaviour
     public float lifetime = 2f; // Bullet lifetime (in seconds).
     public float damage = 1f;
 
+    public GameObject audio;
+    private FlatAudioManager audioManager;
+
+    void Awake() {
+        audio = GameObject.Find("Audio");
+        audioManager = audio.GetComponent<FlatAudioManager>();
+    }
+
     private void Start() {
         // Set the bullet's initial velocity.
         Rigidbody rb = GetComponent<Rigidbody>();

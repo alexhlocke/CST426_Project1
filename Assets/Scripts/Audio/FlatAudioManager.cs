@@ -19,10 +19,11 @@ public class FlatAudioManager : MonoBehaviour
     }
 
     void Start() {
-        //playFlatSound("music");
+        //playFlatSound("GoofyAhBeat");
     }
 
     public void playFlatSound(string name) {
+        Debug.Log("Playing Sound: " + name);
         FlatSound s = Array.Find(sounds, sound => sound.name == name);
         s.source.Play();
     }

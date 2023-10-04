@@ -10,10 +10,17 @@ public class RangedAttacking : MonoBehaviour
 
     public GameObject bulletPrefab;
     public Transform shootingStart;
+    public GameObject audio;
 
     private float nextShotTime;
     private GameObject closestEnemy;
 
+    private FlatAudioManager audioManager;
+
+    void Awake() {
+        audio = GameObject.Find("Audio");
+        audioManager = audio.GetComponent<FlatAudioManager>();
+    }
 
     void Update() {
         //Look at closest enemy
@@ -42,6 +49,7 @@ public class RangedAttacking : MonoBehaviour
         // Instantiate and shoot a bullet in the direction of the enemy.
         GameObject newBullet = Instantiate(bulletPrefab, shootingStart.position, transform.rotation);
         newBullet.GetComponent<Bullet>().SetDamage(damageAmount);
+        audioManager.playFlatSound("Woosh");
     }
 
     private GameObject FindClosestEnemy() {
