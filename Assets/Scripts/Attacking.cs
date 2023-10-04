@@ -7,7 +7,7 @@ public class Attacking : MonoBehaviour
     [Range(0f,10f)]
     public float damageAmount = 8f;
 
-    private void OnCollisionEnter(Collision collision) {
+    private void OnCollisionStay(Collision collision) {
         //debug
         Debug.Log("ENTERED COLLISION: " + collision.gameObject.tag);
 
@@ -22,7 +22,7 @@ public class Attacking : MonoBehaviour
             //catch missing componenet error
             if (enemyLife != null) {                
                 // Call the 'takeDamage' function on the 'Life' component with the specified damage.
-                enemyLife.takeDamage(damageAmount);
+                enemyLife.takeDamage(damageAmount/50);
             }
             else {
                 Debug.LogWarning("Fucky Wucky Made: No 'Life' component found on the enemy.");
