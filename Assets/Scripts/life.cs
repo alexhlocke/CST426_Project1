@@ -5,6 +5,7 @@ using UnityEngine;
 public class life : MonoBehaviour
 {
     [Header("References")]
+    public GameObject audio;
 
     [Header("Health")]
     [Range(0f,200f)]
@@ -16,6 +17,12 @@ public class life : MonoBehaviour
     public float cookedPercent = 0f;
 
     private bool died = false;
+    private FlatAudioManager audioManager;
+
+    void Awake() {
+        audio = GameObject.Find("Audio");
+        audioManager = audio.GetComponent<FlatAudioManager>();
+    }
 
     void Start() {
         health = maxHealth;
@@ -47,6 +54,8 @@ public class life : MonoBehaviour
         Destroy(GetComponent<Rigidbody>());
         Destroy(GetComponent<CapsuleCollider>());
         //Destroy(NavMeshAgent);
+
+        audioManager.playFlatSound("Death");
     }
 
     public bool isDead() {
