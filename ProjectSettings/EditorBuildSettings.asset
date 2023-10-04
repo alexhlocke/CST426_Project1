@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 29968fe92c9f72849a6d9bc89f74b537
   - enabled: 1
-    path: Assets/Scenes/Edgar's Test Scene 2.unity
-    guid: 6ddfdc267cd66fa46bd9f4ad76115373
+    path: Assets/Scenes/All Purpose Testing.unity
+    guid: c2ffd3d3d096eb44ead37912abd64ec5
+  - enabled: 1
+    path: Assets/Scenes/Alex's Test Scene.unity
+    guid: 9e28cca1f9314764d8b74c22388105b3
   m_configObjects: {}

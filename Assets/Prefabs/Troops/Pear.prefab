@@ -555,7 +555,6 @@ MonoBehaviour:
   shootingInterval: 2
   bulletPrefab: {fileID: 939089006725580515, guid: 8f8549821c96abb4195caceb05562f99, type: 3}
   shootingStart: {fileID: 5081129013321335328}
-  audio: {fileID: 0}
 --- !u!114 &3155469670864164977
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -568,7 +567,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a000f946206d50a42aa4465df81ed97f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audio: {fileID: 0}
   maxHealth: 100
   health: 0
   moldPercent: 0
